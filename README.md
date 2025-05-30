@@ -2,7 +2,7 @@
 
 ## **1\. Introduction**
 
-Unit testing is a cornerstone of software quality assurance. However, existing unit test generation methods predominantly focus on regression scenarios and often fall short in non - regression settings where the method under test may be faulty. To address this limitation, we propose ****DISTINCT****, a novel framework that incorporates natural - language descriptions (NLDs) of methods' intended behavior into the test case generation process.
+Unit testing is a cornerstone of software quality assurance. However, existing unit test generation methods predominantly focus on regression scenarios and often fall short in non - regression settings where the method under test may be faulty. To address this limitation, we propose ****DISTINCT****, a novel framework that incorporates natural - language descriptions (NLDs) of methods' intended behavior into the test case generation process. The workflow is shown below.
 
 ![Framework Overview](img.png)
 
