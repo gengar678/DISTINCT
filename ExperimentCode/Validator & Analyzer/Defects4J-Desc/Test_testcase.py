@@ -302,7 +302,7 @@ def process_projects():
                     shell=True,
                     text=True,
                     capture_output=True,
-                    timeout=1200  # 设置超时
+                    timeout=180  # 设置超时
                 )
                 log_output = f"Command: {command}\nSTDOUT:\n{process.stdout}\nSTDERR:\n{process.stderr}\n"
                 if process.returncode != 0:
