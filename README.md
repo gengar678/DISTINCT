@@ -73,8 +73,9 @@ To evaluate the impact of different hyperparameter settings in DISTINCT on the e
 
 ### **6.1 Clone the repository**
 
-
+```bash
 git clone &lt;repository_url&gt;cd DISTINCT
+```
 
 ### **6.2 Data Preparation**
 
@@ -84,19 +85,19 @@ Ensure that the Defects4J - Desc and QuixBugs - Desc datasets are available and 
 
 #### **6.3.1 Generate Initial Test Cases**
 
-
+```bash
 python DISTINCT/ExperimentCode/Candidate Test Case Generator/Defects4J - Desc/Initial_test_qianfan.py
-
+```
 #### **6.3.2 Analyze and Repair Test Results**
 
-
+```bash
 python DISTINCT/ExperimentCode/Validator & Analyzer/Defects4J - Desc/Test_Iterator_deepseek.py
-
+```
 #### **6.3.3 Calculate Coverage**
 
-
+```bash
 python DISTINCT/ExperimentCode/CoverageCal/Defects4J - Desc/calc_coverage.py
-
+```
 ## **7\. Configuration**
 
 - ****API Keys****: Replace "Your api_key" in relevant files with your actual API keys.
