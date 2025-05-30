@@ -48,11 +48,11 @@ The DISTINCT/ExperimentCode/CoverageCal directory contains scripts for calcula
 
 ## **5\. Research Questions (RQs)**
 
-### **How EvoSuite and LLM-based methods perform in Non-Regression testing?**
+### **RQ1: How EvoSuite and LLM-based methods perform in Non-Regression testing?**
 
 This research question aims to evaluate the performance of EvoSuite and LLM - based methods in non - regression testing scenarios. We will measure key metrics such as compilation success rate, test - passing rate, fault detection rate, and code coverage to comprehensively assess their effectiveness.
 
-### **How do DISTINT perform against SOTA method?**
+### **RQ2: How do DISTINT perform against SOTA method?**
 
 With the assistance of the comment, we evaluate whether baseline methods such as ChatTester, ChatUniTest, and Basic Prompt exhibit improvements in defect detection, coverage, and other relevant aspects, and compare the results with our approach. To ensure experimental fairness, we modified the source code of these baseline methods by incorporating the comment into their original frameworks.
 
